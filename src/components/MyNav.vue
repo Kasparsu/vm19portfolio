@@ -1,5 +1,5 @@
 <template>
-    <div class="container pt-3">
+    <div class="container pt-2">
         <nav class="navbar" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a class="navbar-item">
