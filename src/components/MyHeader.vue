@@ -1,5 +1,5 @@
 <template>
-  <div class="full-container">
+  <div class="full-container pb-6 mb-6">
     <div class="img-wrapper2">
       <div class="img-wrapper">
         <img class="bg-img" src="http://shreethemes.in/cristino/layouts/images/home/02.jpg">
@@ -17,7 +17,7 @@
            <div class="article">
 
           <article>Obviously I'm a Web Designer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects.
-            <button class="button cv-button">Download Cv</button>
+            <button class="button cv-button mt-4">Download Cv</button>
           </article>
            
            </div>
