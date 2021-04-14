@@ -73,4 +73,7 @@ export default {
         border-color: #e54b4b;
         color: whitesmoke;
     }
+    .section.is-medium {
+        padding-bottom: 0;
+    }
 </style>

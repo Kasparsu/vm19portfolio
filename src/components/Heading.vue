@@ -13,7 +13,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     
     h1 {
         border-bottom: 1px solid tomato;
