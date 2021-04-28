@@ -3,6 +3,7 @@
        <label>
             {{title}}
         </label>
+        <span :style="{left: current + '%'}"><b>{{value}}%</b></span>
         <progress class="progress is-small" :value="current" max="100">{{value}}%</progress>
   </div>
 </template>
@@ -33,4 +34,11 @@ export default {
         fill: orangered;
     }
     progress::-webkit-progress-value { background: orangered; }
+    span {
+        position: relative;
+        float:left;
+    }
+    label {
+        position: absolute;
+    }
 </style>

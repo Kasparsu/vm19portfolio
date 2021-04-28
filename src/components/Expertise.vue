@@ -14,7 +14,7 @@
                 <div class="columns p-6">
                     <div class="column is-one-quarter">
                         <button 
-                            class="button is-large is-fullwidth mt-3"
+                            class="button is-large is-fullwidth mt-3" :class="{active: active==value}"
                             v-for="value,index in Object.keys(expertises)"
                             :key="'button-'+index"
                             @click="active=value"
@@ -90,5 +90,13 @@ export default {
     }
     td {
         vertical-align: middle;
+    }
+    .button.active {
+        background-color: orangered;
+        color: white;
+    }
+    .button:focus, .button.is-focused {
+        border-color: transparent;
+        box-shadow: none;
     }
 </style>
