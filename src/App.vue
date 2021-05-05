@@ -6,8 +6,10 @@
     <counters></counters>
     <offers></offers>
     <work-participation></work-participation>
+    
     <expertise></expertise>
-    <portfolio><portfolio>
+    <portfolio></portfolio>
+    <reviews></reviews>
   </div>
 </template>
 
@@ -19,9 +21,10 @@ import Intrests from './components/Intrests.vue';
 import MyHeader from './components/MyHeader.vue';
 import Offers from './components/Offers.vue';
 import Portfolio from './components/Portfolio.vue';
+import Reviews from './components/Reviews.vue';
 import WorkParticipation from './components/WorkParticipation.vue';
 export default {
-  components: { MyHeader, About, Intrests, Counters, Offers, WorkParticipation, Expertise, Portfolio },
+  components: { MyHeader, About, Intrests, Counters, Offers, WorkParticipation, Expertise, Portfolio, Reviews },
 
 }
 </script>
