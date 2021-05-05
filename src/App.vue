@@ -10,11 +10,13 @@
     <expertise></expertise>
     <portfolio></portfolio>
     <reviews></reviews>
+    <blog-posts></blog-posts>
   </div>
 </template>
 
 <script>
 import About from './components/About.vue';
+import BlogPosts from './components/BlogPosts.vue';
 import Counters from './components/Counters.vue';
 import Expertise from './components/Expertise.vue';
 import Intrests from './components/Intrests.vue';
@@ -24,7 +26,7 @@ import Portfolio from './components/Portfolio.vue';
 import Reviews from './components/Reviews.vue';
 import WorkParticipation from './components/WorkParticipation.vue';
 export default {
-  components: { MyHeader, About, Intrests, Counters, Offers, WorkParticipation, Expertise, Portfolio, Reviews },
+  components: { MyHeader, About, Intrests, Counters, Offers, WorkParticipation, Expertise, Portfolio, Reviews, BlogPosts },
 
 }
 </script>
