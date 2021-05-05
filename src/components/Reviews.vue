@@ -1,5 +1,5 @@
 <template>
- <section class="section px-0">
+ <section class="section py-0">
       <div class="columns mx-0">
             <div class="column is-two-thirds px-6">
                 <heading title="Clients Say">
